@@ -1,0 +1,13 @@
+//  src\main\java\kuke\board\article\service\request\ArticleUpdateRequest.java
+
+package kuke.board.article.service.request;
+
+import lombok.Getter;
+import lombok.ToString;
+
+@Getter
+@ToString
+public class ArticleUpdateRequest {
+    private String title;
+    private String content;
+}
